@@ -1,27 +1,47 @@
-# Job Description Analyzer
+# Job Description Analyzer Prompt
 
 ## Goal
 
-Analyze a job description and extract the most important details.
+Analyze a job description and extract the most important information.
 
-## Input
+## Instructions
 
-Paste the complete job description.
-
-## Output
+Given a job description, extract:
 
 - Job title
 - Required skills
 - Experience level
 - Responsibilities
-- Important keywords
+- Preferred qualifications
 
-## Example Prompt
+## Output format
 
-Analyze the following job description and return the result in Markdown format.
+```markdown
+# Job Summary
 
-<Job Description>
+## Job Title
 
-## Notes
+...
 
-The output should be clear, structured, and reusable.
+## Skills
+
+- Skill 1
+- Skill 2
+
+## Experience
+
+...
+
+## Responsibilities
+
+- Responsibility 1
+- Responsibility 2
+```
+
+## Example input
+
+Paste a job description here.
+
+## Example output
+
+Return a structured Markdown summary.
